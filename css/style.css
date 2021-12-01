@@ -1,0 +1,136 @@
+body{
+    color:  white;
+    background-color: black;
+    line-height: 1.8;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-top: -300px;
+}
+
+
+h2 {
+    front-size:  100px;
+    color: white;
+    margin:  3px;
+    padding:  3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.promo {
+    background-color: #DF0087;
+    font-size: 20px;
+}
+
+.image_lien {
+    width: 380px;
+    border-radius: 50%;
+}
+
+.banner {
+  width: 300px;
+  height: 300px;
+  background-image: <img src="images/logo.jpeg"alt="logosephora">;
+  background-size: 300px;
+  font-size: 16px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+.none {
+    display: none;
+}
+.container1 {
+  margin: 20px;
+  padding: 50px;
+  background-color: #DF0087;
+}
+
+.container2 {
+  margin: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  border-width: 2px;
+  border-color: solid white;
+}
+
+.boite1 {
+  margin: 1px;
+  padding: 10px;
+  text-align : center;
+}
+
+.container2 h2 {
+    font-size: 30px;
+    line-height: 80px;
+}
+.container2 p {
+    font-size: 15px;
+    line-height: 60px;
+    font-style: italic;
+}
+
+.boite2 {
+  margin: 1px;
+  padding: 10px;
+}
+
+.boite3 {
+ margin: 1px;
+ padding: 10px;
+}
+
+.container3 {
+    border: solid white 2px;
+  margin: 20px;
+  padding: 20px;
+  line-height: 2em;
+}
+
+.retrouveznous{
+    font-size: 20px;
+    line-height: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+    @media (max-device-width: 540px) {
+        .container2 {
+            display: block;
+        }
+        .image_lien {
+            width: 500px;
+        }
+        h2 {
+            font-size: 80px;
+        }
+        .boite2{
+            margin-top: 20px;
+        }
+
+        .retrouveznous{
+            display: grid;
+            padding: 20px;
+            line-height: 2em;
+            font-size: 15px;
+
+        }
+
+        a {
+            font-size: 40px;
+            line-height: 2em;
+        }
+    
+}
